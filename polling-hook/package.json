@@ -1,0 +1,19 @@
+{
+  "name": "lore-hook-polling",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "src/index.js",
+  "description": "A hook for Lore",
+  "keywords": [
+    "lore",
+    "hook"
+  ],
+  "scripts": {
+    "test": "NODE_ENV=test mocha --recursive"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4"
+  }
+}
