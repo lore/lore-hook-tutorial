@@ -25,7 +25,7 @@ lore.summon({
     dialog: require('lore-hook-dialog'),
     dialogs: require('lore-hook-dialogs-bootstrap'),
     models: require('lore-hook-models'),
-    polling: require('./lore-hook-polling'),
+    polling: require('./polling-hook'),
     reducers: require('lore-hook-reducers'),
     redux: _.extend(require('lore-hook-redux'), {
       dependencies: ['reducers', 'auth']
