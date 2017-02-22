@@ -10,7 +10,7 @@ class Header extends Component {
         <div className="container">
           <div className="navbar-header">
             <Link className="navbar-brand" to="/">
-              Lore Quickstart
+              Lore Hook Tutorial
             </Link>
           </div>
           <CreateButton/>
