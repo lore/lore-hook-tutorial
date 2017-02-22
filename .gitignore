@@ -22,3 +22,5 @@ npm-debug.log
 .idea
 .node_history
 
+# build directory
+polling-hook/lib
