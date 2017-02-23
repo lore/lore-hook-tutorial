@@ -4,11 +4,6 @@ import PayloadStates from '../constants/PayloadStates';
 
 class Feed extends Component {
 
-  componentDidMount() {
-    const tweets = this.props.tweets;
-    lore.polling.tweet.find(tweets.query.where);
-  }
-
   renderTweet(tweet) {
     return (
       <Tweet key={tweet.id || tweet.cid} tweet={tweet} />

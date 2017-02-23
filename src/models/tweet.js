@@ -8,10 +8,6 @@ export default {
     }
   },
 
-  polling: {
-    interval: 2000
-  },
-
   properties: {
 
     /**
