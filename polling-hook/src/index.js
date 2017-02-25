@@ -1,6 +1,6 @@
 export default {
 
-  dependencies: [],
+  dependencies: ['bindActions'],
 
   defaults: {},
 
