@@ -2,7 +2,7 @@
   "name": "polling-hook",
   "version": "0.1.0",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "description": "A hook for Lore",
   "keywords": [
     "lore",
