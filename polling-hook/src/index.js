@@ -7,7 +7,7 @@ import _ from 'lodash';
 function flattenObject(ob) {
   const toReturn = {};
 
-  for (var i in ob) {
+  for (let i in ob) {
     if (!ob.hasOwnProperty(i)) continue;
 
     if ((typeof ob[i]) == 'object') {
@@ -49,7 +49,7 @@ function createPollingWrapper(action, config) {
   }
 }
 
-module.exports = {
+export default {
 
   dependencies: ['bindActions'],
 
@@ -86,5 +86,4 @@ module.exports = {
     });
   }
 
-};
-
+}
